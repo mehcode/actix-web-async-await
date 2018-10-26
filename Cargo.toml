@@ -8,6 +8,7 @@ repository = "https://github.com/mehcode/actix-web-async-await"
 license = "MIT/Apache-2.0"
 keywords = ["web", "actix", "async", "await"]
 categories = ["asynchronous", "web-programming::http-server"]
+readme = "README.md"
 
 [dependencies]
 actix-web = "0.7.13"
