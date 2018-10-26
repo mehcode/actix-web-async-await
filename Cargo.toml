@@ -1,5 +1,6 @@
 [package]
 name = "actix-web-async-await"
+description = "Provides a preview of Actix with async/await support."
 version = "0.1.0"
 edition = "2018"
 authors = ["Ryan Leckey <leckey.ryan@gmail.com>"]
