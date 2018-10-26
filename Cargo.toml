@@ -1,0 +1,12 @@
+[package]
+name = "actix-web-async-await"
+version = "0.1.0"
+edition = "2018"
+authors = ["Ryan Leckey <leckey.ryan@gmail.com>"]
+
+[dependencies]
+actix-web = "0.7.13"
+tokio-async-await = { version = "0.1.4", features = [ "async-await-preview" ] }
+
+[dev-dependencies]
+tokio = "0.1"
