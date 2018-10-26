@@ -11,7 +11,7 @@ Add this to your Cargo.toml:
 edition = "2018"
 
 # In the `[dependencies]` section
-actix-web-async-await = "0.1.0"
+actix-web-async-await = "0.1"
 ```
 
 Then, get started. Here is the [headline Actix example](https://github.com/actix/actix-web#example) with the addition that it asynchronously delays the request by 2 seconds.
