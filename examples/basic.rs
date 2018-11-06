@@ -1,11 +1,12 @@
 #![feature(await_macro, futures_api, async_await)]
 
-use actix_web::{http, server, App, Path, Responder, Result};
+use actix_web::{http, server, App, Path, Responder};
+use failure::Error;
 use actix_web_async_await::{await, compat};
 use std::time::{Instant, Duration};
 use tokio::timer::Delay;
 
-async fn index(info: Path<(u32, String)>) -> Result<impl Responder> {
+async fn index(info: Path<(u32, String)>) -> Result<impl Responder, Error> {
     // Wait 2s
     await!(Delay::new(Instant::now() + Duration::from_secs(2)))?;
 
