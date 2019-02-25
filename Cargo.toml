@@ -13,7 +13,7 @@ readme = "README.md"
 [dependencies]
 actix-web = "0.7.13"
 futures = "0.1"
-tokio-async-await = { version = "0.1.4", features = [ "async-await-preview" ] }
+tokio-async-await = { version = "0.1.6", features = [ "async-await-preview" ] }
 
 [dev-dependencies]
 tokio = "0.1"
